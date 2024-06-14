@@ -11,5 +11,6 @@ tasks:
       php artisan db:seed
       npm install
       npm run build
+      echo $(gp url 8000)
       php artisan serve
       
